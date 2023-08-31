@@ -1,0 +1,109 @@
+.container{
+    background: rgb(65, 214, 202);
+    height: 1000px;
+    width: 1000px;
+    position: relative;
+    text-align: center;
+    margin: 100px auto;
+    z-index: 0;
+}
+
+.cara{
+    position: absolute;
+    height: 410px;
+    left: 0;
+    right: 0;
+    top: 120px;
+    margin: 0 auto;
+    width: 302px;
+    z-index: 1;
+}
+
+.sombrero{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 60px;
+    z-index: 900;
+}
+
+.orejaIzq{
+    position: absolute;
+    left: -280px;
+    right: 0;
+    margin: 0 auto;
+    top: 180px;
+    z-index: 0;
+}
+
+.orejaDer{
+    position: absolute;
+    left: 280px;
+    right: 0;
+    margin: 0 auto;
+    top: 180px;
+    z-index: 0;
+}
+
+.ojoD{
+    position: absolute;
+    left: -80px;
+    right: 0;
+    margin: 0 auto;
+    top: 200px;
+    z-index: 5;
+    
+}
+
+.ojoI{
+    position: absolute;
+    left: 80px;
+    right: 0;
+    margin: 0 auto;
+    top: 200px;
+    z-index: 6;
+}
+
+.nar{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 260px;
+    z-index: 6;
+    transition: .6s;
+}
+
+.big{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 380px;
+    z-index: 2;
+    transition: 2s;
+}
+
+
+.pieD{
+    position: absolute;
+    left: 160px;
+    right: 0;
+    margin: 0 auto;
+    top: 480px;
+    z-index: -6;
+}
+
+.pieI{
+    position: absolute;
+    left: -160px;
+    right: 0;
+    margin: 0 auto;
+    top: 480px;
+    z-index: -6;
+}
+
+.container .big:hover{
+    transform: scup(260PX);
+}
